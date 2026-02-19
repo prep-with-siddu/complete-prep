@@ -10,68 +10,68 @@
 
 | Keywords in Problem                              | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Subarray", "contiguous", "window of size K"     | **Sliding Window**       | `01_sliding_window.js`       |
-| "Sorted array", "pair with sum", "remove dupes"  | **Two Pointers**         | `02_two_pointers.js`         |
-| "Cycle in linked list", "middle of list"          | **Fast & Slow Pointers** | `03_fast_slow_pointers.js`   |
-| "Overlapping intervals", "merge intervals"        | **Merge Intervals**      | `04_merge_intervals.js`      |
-| "Missing number", "duplicate in range [1,n]"      | **Cyclic Sort**          | `05_cyclic_sort.js`          |
-| "Running sum", "range sum", "subarray sum = K"    | **Prefix Sum**           | `23_prefix_sum.js`           |
-| "Next greater/smaller element"                     | **Monotonic Stack**      | `16_monotonic_stack.js`      |
-| "Sliding window max/min"                           | **Monotonic Queue**      | `25_monotonic_queue.js`      |
-| "Find pattern in string", "strStr"                 | **String Matching**      | `27_string_matching.js`      |
+| "Subarray", "contiguous", "window of size K"     | **Sliding Window**       | [01_sliding_window.js](patterns/01_sliding_window.js)       |
+| "Sorted array", "pair with sum", "remove dupes"  | **Two Pointers**         | [02_two_pointers.js](patterns/02_two_pointers.js)         |
+| "Cycle in linked list", "middle of list"          | **Fast & Slow Pointers** | [03_fast_slow_pointers.js](patterns/03_fast_slow_pointers.js)   |
+| "Overlapping intervals", "merge intervals"        | **Merge Intervals**      | [04_merge_intervals.js](patterns/04_merge_intervals.js)      |
+| "Missing number", "duplicate in range [1,n]"      | **Cyclic Sort**          | [05_cyclic_sort.js](patterns/05_cyclic_sort.js)          |
+| "Running sum", "range sum", "subarray sum = K"    | **Prefix Sum**           | [23_prefix_sum.js](patterns/23_prefix_sum.js)           |
+| "Next greater/smaller element"                     | **Monotonic Stack**      | [16_monotonic_stack.js](patterns/16_monotonic_stack.js)      |
+| "Sliding window max/min"                           | **Monotonic Queue**      | [25_monotonic_queue.js](patterns/25_monotonic_queue.js)      |
+| "Find pattern in string", "strStr"                 | **String Matching**      | [27_string_matching.js](patterns/27_string_matching.js)      |
 
 ### Linked List Problems
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Reverse a linked list", "reverse between"        | **Linked List Reversal** | `06_linked_list_reversal.js` |
-| "Cycle detection", "find start of cycle"           | **Fast & Slow Pointers** | `03_fast_slow_pointers.js`   |
-| "Merge K sorted lists"                             | **K-way Merge**          | `13_k_way_merge.js`          |
+| "Reverse a linked list", "reverse between"        | **Linked List Reversal** | [06_linked_list_reversal.js](patterns/06_linked_list_reversal.js) |
+| "Cycle detection", "find start of cycle"           | **Fast & Slow Pointers** | [03_fast_slow_pointers.js](patterns/03_fast_slow_pointers.js)   |
+| "Merge K sorted lists"                             | **K-way Merge**          | [13_k_way_merge.js](patterns/13_k_way_merge.js)          |
 
 ### Tree Problems
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Level order", "zigzag", "level average"           | **BFS (Tree)**           | `07_tree_bfs.js`             |
-| "Path sum", "depth", "validate BST", "diameter"    | **DFS (Tree)**           | `08_tree_dfs.js`             |
-| "Serialize/Deserialize tree"                        | **Design Problems**      | `28_design_problems.js`      |
+| "Level order", "zigzag", "level average"           | **BFS (Tree)**           | [07_tree_bfs.js](patterns/07_tree_bfs.js)             |
+| "Path sum", "depth", "validate BST", "diameter"    | **DFS (Tree)**           | [08_tree_dfs.js](patterns/08_tree_dfs.js)             |
+| "Serialize/Deserialize tree"                        | **Design Problems**      | [28_design_problems.js](patterns/28_design_problems.js)      |
 
 ### Graph Problems
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Number of islands", "connected components"        | **Graph BFS/DFS**        | `21_graph_bfs_dfs.js`        |
-| "Shortest path", "minimum cost"                    | **Shortest Path**        | `22_shortest_path.js`        |
-| "Course schedule", "dependency order", "DAG"        | **Topological Sort**     | `14_topological_sort.js`     |
-| "Connected components", "union/merge groups"        | **Union-Find**           | `17_union_find.js`           |
+| "Number of islands", "connected components"        | **Graph BFS/DFS**        | [21_graph_bfs_dfs.js](patterns/21_graph_bfs_dfs.js)        |
+| "Shortest path", "minimum cost"                    | **Shortest Path**        | [22_shortest_path.js](patterns/22_shortest_path.js)        |
+| "Course schedule", "dependency order", "DAG"        | **Topological Sort**     | [14_topological_sort.js](patterns/14_topological_sort.js)     |
+| "Connected components", "union/merge groups"        | **Union-Find**           | [17_union_find.js](patterns/17_union_find.js)           |
 
 ### Search / Optimization Problems
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Sorted", "search", "minimum in rotated"           | **Binary Search**        | `11_binary_search.js`        |
-| "Kth largest", "top K frequent", "K closest"       | **Top K Elements**       | `12_top_k_elements.js`       |
-| "Merge K sorted"                                    | **K-way Merge**          | `13_k_way_merge.js`          |
-| "Find median from stream"                           | **Two Heaps**            | `09_two_heaps.js`            |
+| "Sorted", "search", "minimum in rotated"           | **Binary Search**        | [11_binary_search.js](patterns/11_binary_search.js)        |
+| "Kth largest", "top K frequent", "K closest"       | **Top K Elements**       | [12_top_k_elements.js](patterns/12_top_k_elements.js)       |
+| "Merge K sorted"                                    | **K-way Merge**          | [13_k_way_merge.js](patterns/13_k_way_merge.js)          |
+| "Find median from stream"                           | **Two Heaps**            | [09_two_heaps.js](patterns/09_two_heaps.js)            |
 
 ### Combinatorial / Backtracking
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "All subsets", "all combinations", "generate all"  | **Subsets/Backtracking** | `10_subsets_backtracking.js`  |
-| "Minimum coins", "maximum profit", "ways to"       | **Dynamic Programming**  | `15_dynamic_programming.js`  |
-| "Activity selection", "minimum meetings"            | **Greedy**               | `20_greedy.js`               |
+| "All subsets", "all combinations", "generate all"  | **Subsets/Backtracking** | [10_subsets_backtracking.js](patterns/10_subsets_backtracking.js)  |
+| "Minimum coins", "maximum profit", "ways to"       | **Dynamic Programming**  | [15_dynamic_programming.js](patterns/15_dynamic_programming.js)  |
+| "Activity selection", "minimum meetings"            | **Greedy**               | [20_greedy.js](patterns/20_greedy.js)               |
 
 ### Advanced Patterns
 
 | Keywords                                          | Pattern                  | File                         |
 |--------------------------------------------------|--------------------------|------------------------------|
-| "Prefix/autocomplete", "word search II"            | **Trie**                 | `18_trie.js`                 |
-| "XOR", "single number", "bit count"                | **Bit Manipulation**     | `19_bit_manipulation.js`     |
-| "Range query with updates"                          | **Segment Tree**         | `26_segment_tree.js`         |
-| "Design a data structure", "LRU/LFU Cache"          | **Design Problems**      | `28_design_problems.js`      |
-| "GCD", "primes", "modulo 10^9+7"                    | **Math/Number Theory**   | `29_math_number_theory.js`   |
-| "Sort an array", "merge sort", "median of 2 arrays" | **Divide and Conquer**   | `30_divide_and_conquer.js`   |
+| "Prefix/autocomplete", "word search II"            | **Trie**                 | [18_trie.js](patterns/18_trie.js)                 |
+| "XOR", "single number", "bit count"                | **Bit Manipulation**     | [19_bit_manipulation.js](patterns/19_bit_manipulation.js)     |
+| "Range query with updates"                          | **Segment Tree**         | [26_segment_tree.js](patterns/26_segment_tree.js)         |
+| "Design a data structure", "LRU/LFU Cache"          | **Design Problems**      | [28_design_problems.js](patterns/28_design_problems.js)      |
+| "GCD", "primes", "modulo 10^9+7"                    | **Math/Number Theory**   | [29_math_number_theory.js](patterns/29_math_number_theory.js)   |
+| "Sort an array", "merge sort", "median of 2 arrays" | **Divide and Conquer**   | [30_divide_and_conquer.js](patterns/30_divide_and_conquer.js)   |
 
 ---
 

@@ -10,8 +10,6 @@
 - [File Structure](#file-structure)
 - [Pattern Quick Reference](#pattern-quick-reference)
 - [How to Use](#how-to-use)
-- [Complexity Cheat Sheet](#complexity-cheat-sheet)
-- [Problem Identification Flowchart](#problem-identification-flowchart)
 - [Pattern Identification Table](#pattern-identification-table)
 - [Data Structure Selection Guide](#data-structure-selection-guide)
 - [Constraint → Complexity Guide](#constraint--complexity-guide)
@@ -207,6 +205,8 @@ Each file is **self-contained** — no dependencies needed.
 ---
 
 ## 6-Week Study Roadmap
+
+> **Quick 6-week plan** for rapid prep. For a more detailed 12–16 week plan with daily schedules, JS templates, and spaced repetition, see [dsa-roadmap.md](dsa-roadmap.md).
 
 ### Week 1: Arrays & Strings (Foundation)
 | Day | Pattern | Practice |
@@ -413,9 +413,6 @@ class TreeNode {
 
 ---
 
-## License
-
-This project is for **educational purposes**. All LeetCode problems are property of LeetCode.
 
 ---
 

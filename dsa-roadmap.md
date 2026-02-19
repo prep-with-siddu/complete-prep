@@ -136,10 +136,11 @@ function dfs(node) {
 function bfs(root) {
   if (!root) return;
   const queue = [root];
-  while (queue.length) {
-    const size = queue.length;
+  let head = 0;        // index pointer instead of shift()
+  while (head < queue.length) {
+    const size = queue.length - head;
     for (let i = 0; i < size; i++) {
-      const node = queue.shift();
+      const node = queue[head++];  // O(1) dequeue
       // Process node
       if (node.left) queue.push(node.left);
       if (node.right) queue.push(node.right);
@@ -580,6 +581,35 @@ Solve in THIS order for maximum pattern reinforcement:
  48. Alien Dictionary (LC 269) ―――――― Topo Sort
  49. Find Median Stream (LC 295) ―――― Two Heaps
  50. Trapping Rain Water (LC 42) ―――― Two Pointers / Stack
+```
+
+### Round 6: Completing the 75 (Week 12+)
+```
+ 51. Set Matrix Zeroes (LC 73) ―――――― In-place marking
+ 52. Spiral Matrix (LC 54) ――――――――――― Simulation
+ 53. Rotate Image (LC 48) ―――――――――――― Matrix transform
+ 54. Word Search (LC 79) ―――――――――――――― DFS Backtracking
+ 55. Longest Repeat Char Replace (LC 424) Sliding Window
+ 56. Encode/Decode Strings (LC 271) ―― Design
+ 57. Palindromic Substrings (LC 647) ― Expand around center
+ 58. Longest Palindromic Substr (LC 5) DP / Two Pointers
+ 59. Insert Interval (LC 57) ――――――――― Merge Intervals
+ 60. Non-overlapping Intervals (LC 435) Greedy
+ 61. Meeting Rooms (LC 252) ――――――――――― Sort + scan
+ 62. Meeting Rooms II (LC 253) ――――――― Heap / Sweep
+ 63. Remove Nth From End (LC 19) ――――― Two Pointers
+ 64. Reorder List (LC 143) ―――――――――――― Fast/Slow + Reverse
+ 65. Subtree of Another Tree (LC 572) ― Tree DFS
+ 66. Construct BT Preorder+Inorder (LC 105) D&C
+ 67. Kth Smallest in BST (LC 230) ―――― Inorder DFS
+ 68. LCA of BST (LC 235) ―――――――――――――― BST property
+ 69. Graph Valid Tree (LC 261) ――――――― Union-Find
+ 70. Number of Connected Comp (LC 323) Union-Find
+ 71. Longest Consecutive Seq (LC 128) ― HashSet
+ 72. House Robber II (LC 213) ―――――――― Circular DP
+ 73. Combination Sum IV (LC 377) ――――― DP
+ 74. Decode Ways (LC 91) ―――――――――――――― 1D DP
+ 75. Reverse Bits (LC 190) ――――――――――― Bit Manipulation
 ```
 
 ---

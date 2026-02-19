@@ -63,10 +63,4 @@
 
 ---
 
-### Merge Intervals (04)
-
-[← Prev: Fast & Slow Pointers](03_fast_slow_pointers.js) · [📋 README](../README.md) · [Next: Cyclic Sort →](05_cyclic_sort.js)
-
----
-
 [↩ Back to Main README](../README.md)
