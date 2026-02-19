@@ -16,7 +16,6 @@
 - [Data Structure Selection Guide](#data-structure-selection-guide)
 - [Constraint → Complexity Guide](#constraint--complexity-guide)
 - [6-Week Study Roadmap](#6-week-study-roadmap)
-- [Blind 75 Tracker](#blind-75-tracker)
 - [Pattern Combination Guide](#pattern-combination-guide)
 - [JavaScript Interview Tips](#javascript-interview-tips)
 - [Interview Tips](#interview-tips)
@@ -38,43 +37,49 @@ This repository is a **one-stop DSA interview prep toolkit** for JavaScript deve
 
 ## File Structure
 
-```
-├── README.md                        # This file — master reference
-├── dsa-roadmap.md                   # Complete Easy → Hard learning path
-├── complexity-cheatsheet.md         # Time & Space complexity tables
-├── problem-identification-guide.md  # Keyword → pattern mapping
-└── patterns/
-    ├── 01_sliding_window.js         # Fixed/variable window techniques
-    ├── 02_two_pointers.js           # Opposite & same direction pointers
-    ├── 03_fast_slow_pointers.js     # Floyd's cycle detection
-    ├── 04_merge_intervals.js        # Overlapping interval problems
-    ├── 05_cyclic_sort.js            # In-place sorting [0,n] range
-    ├── 06_linked_list_reversal.js   # Iterative & recursive reversal
-    ├── 07_tree_bfs.js               # Level-order traversal
-    ├── 08_tree_dfs.js               # Inorder, preorder, postorder
-    ├── 09_two_heaps.js              # Median finding with min/max heaps
-    ├── 10_subsets_backtracking.js   # Permutations, combinations, subsets
-    ├── 11_binary_search.js          # Classic & boundary search
-    ├── 12_top_k_elements.js         # Heap-based K element problems
-    ├── 13_k_way_merge.js            # Merging K sorted structures
-    ├── 14_topological_sort.js       # DAG ordering (Kahn's + DFS)
-    ├── 15_dynamic_programming.js    # Tabulation & memoization
-    ├── 16_monotonic_stack.js        # Next greater/smaller element
-    ├── 17_union_find.js             # Disjoint set with rank & compression
-    ├── 18_trie.js                   # Prefix tree operations
-    ├── 19_bit_manipulation.js       # XOR tricks, bit counting
-    ├── 20_greedy.js                 # Locally optimal → globally optimal
-    ├── 21_graph_bfs_dfs.js          # Graph traversal patterns
-    ├── 22_shortest_path.js          # Dijkstra, Bellman-Ford, Floyd-Warshall
-    ├── 23_prefix_sum.js             # Range sum & subarray problems
-    ├── 24_stack_queue.js            # Stack/Queue design & usage
-    ├── 25_monotonic_queue.js        # Sliding window maximum/minimum
-    ├── 26_segment_tree.js           # Range queries & updates
-    ├── 27_string_matching.js        # KMP, Rabin-Karp, Z-algorithm
-    ├── 28_design_problems.js        # LRU Cache, MinStack, etc.
-    ├── 29_math_number_theory.js     # GCD, primes, modular arithmetic
-    └── 30_divide_and_conquer.js     # Merge sort, quick select, etc.
-```
+### 📄 Guides
+
+| File | Description |
+|------|-------------|
+| [README.md](README.md) | This file — master reference |
+| [dsa-roadmap.md](dsa-roadmap.md) | Complete Easy → Hard learning path |
+| [complexity-cheatsheet.md](complexity-cheatsheet.md) | Time & Space complexity tables |
+| [problem-identification-guide.md](problem-identification-guide.md) | Keyword → pattern mapping |
+
+### 📁 [patterns/](patterns/) — Click any pattern to open (use [Pattern Navigator](patterns/README.md) for prev/next links)
+
+| # | File | Description |
+|---|------|-------------|
+| 01 | [sliding_window.js](patterns/01_sliding_window.js) | Fixed/variable window techniques |
+| 02 | [two_pointers.js](patterns/02_two_pointers.js) | Opposite & same direction pointers |
+| 03 | [fast_slow_pointers.js](patterns/03_fast_slow_pointers.js) | Floyd's cycle detection |
+| 04 | [merge_intervals.js](patterns/04_merge_intervals.js) | Overlapping interval problems |
+| 05 | [cyclic_sort.js](patterns/05_cyclic_sort.js) | In-place sorting [0,n] range |
+| 06 | [linked_list_reversal.js](patterns/06_linked_list_reversal.js) | Iterative & recursive reversal |
+| 07 | [tree_bfs.js](patterns/07_tree_bfs.js) | Level-order traversal |
+| 08 | [tree_dfs.js](patterns/08_tree_dfs.js) | Inorder, preorder, postorder |
+| 09 | [two_heaps.js](patterns/09_two_heaps.js) | Median finding with min/max heaps |
+| 10 | [subsets_backtracking.js](patterns/10_subsets_backtracking.js) | Permutations, combinations, subsets |
+| 11 | [binary_search.js](patterns/11_binary_search.js) | Classic & boundary search |
+| 12 | [top_k_elements.js](patterns/12_top_k_elements.js) | Heap-based K element problems |
+| 13 | [k_way_merge.js](patterns/13_k_way_merge.js) | Merging K sorted structures |
+| 14 | [topological_sort.js](patterns/14_topological_sort.js) | DAG ordering (Kahn's + DFS) |
+| 15 | [dynamic_programming.js](patterns/15_dynamic_programming.js) | Tabulation & memoization |
+| 16 | [monotonic_stack.js](patterns/16_monotonic_stack.js) | Next greater/smaller element |
+| 17 | [union_find.js](patterns/17_union_find.js) | Disjoint set with rank & compression |
+| 18 | [trie.js](patterns/18_trie.js) | Prefix tree operations |
+| 19 | [bit_manipulation.js](patterns/19_bit_manipulation.js) | XOR tricks, bit counting |
+| 20 | [greedy.js](patterns/20_greedy.js) | Locally optimal → globally optimal |
+| 21 | [graph_bfs_dfs.js](patterns/21_graph_bfs_dfs.js) | Graph traversal patterns |
+| 22 | [shortest_path.js](patterns/22_shortest_path.js) | Dijkstra, Bellman-Ford, Floyd-Warshall |
+| 23 | [prefix_sum.js](patterns/23_prefix_sum.js) | Range sum & subarray problems |
+| 24 | [stack_queue.js](patterns/24_stack_queue.js) | Stack/Queue design & usage |
+| 25 | [monotonic_queue.js](patterns/25_monotonic_queue.js) | Sliding window maximum/minimum |
+| 26 | [segment_tree.js](patterns/26_segment_tree.js) | Range queries & updates |
+| 27 | [string_matching.js](patterns/27_string_matching.js) | KMP, Rabin-Karp, Z-algorithm |
+| 28 | [design_problems.js](patterns/28_design_problems.js) | LRU Cache, MinStack, etc. |
+| 29 | [math_number_theory.js](patterns/29_math_number_theory.js) | GCD, primes, modular arithmetic |
+| 30 | [divide_and_conquer.js](patterns/30_divide_and_conquer.js) | Merge sort, quick select, etc. |
 
 ---
 
@@ -96,36 +101,36 @@ Each file is **self-contained** — no dependencies needed.
 
 | #  | Pattern | Key Technique | Time | Space |
 |----|---------|---------------|------|-------|
-| 01 | Sliding Window | Expand/shrink window | O(n) | O(1)-O(k) |
-| 02 | Two Pointers | Left/right convergence | O(n) | O(1) |
-| 03 | Fast & Slow Pointers | Floyd's cycle detection | O(n) | O(1) |
-| 04 | Merge Intervals | Sort + merge overlaps | O(n log n) | O(n) |
-| 05 | Cyclic Sort | Index-value mapping | O(n) | O(1) |
-| 06 | Linked List Reversal | prev/curr/next pointers | O(n) | O(1) |
-| 07 | Tree BFS | Queue-based level order | O(n) | O(w) |
-| 08 | Tree DFS | Recursive/stack traversal | O(n) | O(h) |
-| 09 | Two Heaps | Min-heap + Max-heap | O(n log n) | O(n) |
-| 10 | Subsets/Backtracking | Recursive choice tree | O(2^n) | O(n) |
-| 11 | Binary Search | Half-interval elimination | O(log n) | O(1) |
-| 12 | Top K Elements | Heap of size K | O(n log k) | O(k) |
-| 13 | K-way Merge | Min-heap across K lists | O(N log k) | O(k) |
-| 14 | Topological Sort | In-degree / DFS ordering | O(V+E) | O(V+E) |
-| 15 | Dynamic Programming | Memoize subproblems | Varies | Varies |
-| 16 | Monotonic Stack | Maintain sorted stack | O(n) | O(n) |
-| 17 | Union Find | Disjoint set + rank | O(α(n)) | O(n) |
-| 18 | Trie | Prefix tree | O(L) | O(ALPHABET·L·N) |
-| 19 | Bit Manipulation | XOR, shift, mask | O(n) | O(1) |
-| 20 | Greedy | Local optimum choice | O(n log n) | O(1) |
-| 21 | Graph BFS/DFS | Adjacency traversal | O(V+E) | O(V+E) |
-| 22 | Shortest Path | Dijkstra/BF/Floyd | O(E log V) | O(V) |
-| 23 | Prefix Sum | Cumulative sum array | O(n) | O(n) |
-| 24 | Stack & Queue | LIFO/FIFO operations | O(n) | O(n) |
-| 25 | Monotonic Queue | Deque min/max window | O(n) | O(k) |
-| 26 | Segment Tree | Range query/update | O(n) build, O(log n) query | O(n) |
-| 27 | String Matching | KMP/Rabin-Karp/Z | O(n+m) | O(m) |
-| 28 | Design Problems | OOP + DS combination | Varies | Varies |
-| 29 | Math & Number Theory | GCD, primes, mod | Varies | O(1)-O(n) |
-| 30 | Divide & Conquer | Split → solve → merge | O(n log n) | O(n) |
+| 01 | [Sliding Window](patterns/01_sliding_window.js) | Expand/shrink window | O(n) | O(1)-O(k) |
+| 02 | [Two Pointers](patterns/02_two_pointers.js) | Left/right convergence | O(n) | O(1) |
+| 03 | [Fast & Slow Pointers](patterns/03_fast_slow_pointers.js) | Floyd's cycle detection | O(n) | O(1) |
+| 04 | [Merge Intervals](patterns/04_merge_intervals.js) | Sort + merge overlaps | O(n log n) | O(n) |
+| 05 | [Cyclic Sort](patterns/05_cyclic_sort.js) | Index-value mapping | O(n) | O(1) |
+| 06 | [Linked List Reversal](patterns/06_linked_list_reversal.js) | prev/curr/next pointers | O(n) | O(1) |
+| 07 | [Tree BFS](patterns/07_tree_bfs.js) | Queue-based level order | O(n) | O(w) |
+| 08 | [Tree DFS](patterns/08_tree_dfs.js) | Recursive/stack traversal | O(n) | O(h) |
+| 09 | [Two Heaps](patterns/09_two_heaps.js) | Min-heap + Max-heap | O(n log n) | O(n) |
+| 10 | [Subsets/Backtracking](patterns/10_subsets_backtracking.js) | Recursive choice tree | O(2^n) | O(n) |
+| 11 | [Binary Search](patterns/11_binary_search.js) | Half-interval elimination | O(log n) | O(1) |
+| 12 | [Top K Elements](patterns/12_top_k_elements.js) | Heap of size K | O(n log k) | O(k) |
+| 13 | [K-way Merge](patterns/13_k_way_merge.js) | Min-heap across K lists | O(N log k) | O(k) |
+| 14 | [Topological Sort](patterns/14_topological_sort.js) | In-degree / DFS ordering | O(V+E) | O(V+E) |
+| 15 | [Dynamic Programming](patterns/15_dynamic_programming.js) | Memoize subproblems | Varies | Varies |
+| 16 | [Monotonic Stack](patterns/16_monotonic_stack.js) | Maintain sorted stack | O(n) | O(n) |
+| 17 | [Union Find](patterns/17_union_find.js) | Disjoint set + rank | O(α(n)) | O(n) |
+| 18 | [Trie](patterns/18_trie.js) | Prefix tree | O(L) | O(ALPHABET·L·N) |
+| 19 | [Bit Manipulation](patterns/19_bit_manipulation.js) | XOR, shift, mask | O(n) | O(1) |
+| 20 | [Greedy](patterns/20_greedy.js) | Local optimum choice | O(n log n) | O(1) |
+| 21 | [Graph BFS/DFS](patterns/21_graph_bfs_dfs.js) | Adjacency traversal | O(V+E) | O(V+E) |
+| 22 | [Shortest Path](patterns/22_shortest_path.js) | Dijkstra/BF/Floyd | O(E log V) | O(V) |
+| 23 | [Prefix Sum](patterns/23_prefix_sum.js) | Cumulative sum array | O(n) | O(n) |
+| 24 | [Stack & Queue](patterns/24_stack_queue.js) | LIFO/FIFO operations | O(n) | O(n) |
+| 25 | [Monotonic Queue](patterns/25_monotonic_queue.js) | Deque min/max window | O(n) | O(k) |
+| 26 | [Segment Tree](patterns/26_segment_tree.js) | Range query/update | O(n) build, O(log n) query | O(n) |
+| 27 | [String Matching](patterns/27_string_matching.js) | KMP/Rabin-Karp/Z | O(n+m) | O(m) |
+| 28 | [Design Problems](patterns/28_design_problems.js) | OOP + DS combination | Varies | Varies |
+| 29 | [Math & Number Theory](patterns/29_math_number_theory.js) | GCD, primes, mod | Varies | O(1)-O(n) |
+| 30 | [Divide & Conquer](patterns/30_divide_and_conquer.js) | Split → solve → merge | O(n log n) | O(n) |
 
 ---
 
@@ -256,102 +261,6 @@ Each file is **self-contained** — no dependencies needed.
 | 3 | Bit Manipulation | LC 136, 191, 338 |
 | 4 | Math & Number Theory | LC 204, 50, 166 |
 | 5 | Divide & Conquer + Full Review | LC 912, 215, 493 |
-
----
-
-## Blind 75 Tracker
-
-### Arrays
-- [ ] Two Sum (LC 1) — Hash Map
-- [ ] Best Time to Buy/Sell Stock (LC 121) — Sliding Window
-- [ ] Contains Duplicate (LC 217) — Hash Set
-- [ ] Product of Array Except Self (LC 238) — Prefix Sum
-- [ ] Maximum Subarray (LC 53) — Kadane's / DP
-- [ ] Maximum Product Subarray (LC 152) — DP
-- [ ] Find Minimum in Rotated Sorted Array (LC 153) — Binary Search
-- [ ] Search in Rotated Sorted Array (LC 33) — Binary Search
-- [ ] 3Sum (LC 15) — Two Pointers
-- [ ] Container With Most Water (LC 11) — Two Pointers
-
-### Binary
-- [ ] Sum of Two Integers (LC 371) — Bit Manipulation
-- [ ] Number of 1 Bits (LC 191) — Bit Manipulation
-- [ ] Counting Bits (LC 338) — DP + Bit
-- [ ] Missing Number (LC 268) — Cyclic Sort / XOR
-- [ ] Reverse Bits (LC 190) — Bit Manipulation
-
-### Dynamic Programming
-- [ ] Climbing Stairs (LC 70) — 1D DP
-- [ ] Coin Change (LC 322) — Unbounded Knapsack
-- [ ] Longest Increasing Subsequence (LC 300) — DP + Binary Search
-- [ ] Longest Common Subsequence (LC 1143) — 2D DP
-- [ ] Word Break (LC 139) — DP
-- [ ] Combination Sum IV (LC 377) — DP
-- [ ] House Robber (LC 198) — 1D DP
-- [ ] House Robber II (LC 213) — 1D DP (circular)
-- [ ] Decode Ways (LC 91) — 1D DP
-- [ ] Unique Paths (LC 62) — 2D DP
-- [ ] Jump Game (LC 55) — Greedy
-
-### Graph
-- [ ] Clone Graph (LC 133) — Graph BFS/DFS
-- [ ] Course Schedule (LC 207) — Topological Sort
-- [ ] Pacific Atlantic Water Flow (LC 417) — Graph DFS
-- [ ] Number of Islands (LC 200) — Graph BFS/DFS
-- [ ] Longest Consecutive Sequence (LC 128) — Hash Set
-- [ ] Alien Dictionary (LC 269) — Topological Sort
-- [ ] Graph Valid Tree (LC 261) — Union Find
-- [ ] Number of Connected Components (LC 323) — Union Find
-
-### Interval
-- [ ] Insert Interval (LC 57) — Merge Intervals
-- [ ] Merge Intervals (LC 56) — Merge Intervals
-- [ ] Non-overlapping Intervals (LC 435) — Greedy
-- [ ] Meeting Rooms (LC 252) — Sort
-- [ ] Meeting Rooms II (LC 253) — Two Heaps / Sort
-
-### Linked List
-- [ ] Reverse Linked List (LC 206) — Linked List Reversal
-- [ ] Detect Cycle (LC 141) — Fast & Slow Pointers
-- [ ] Merge Two Sorted Lists (LC 21) — Two Pointers
-- [ ] Merge K Sorted Lists (LC 23) — K-way Merge
-- [ ] Remove Nth Node From End (LC 19) — Two Pointers
-- [ ] Reorder List (LC 143) — Fast & Slow + Reversal
-
-### Matrix
-- [ ] Set Matrix Zeroes (LC 73) — In-place
-- [ ] Spiral Matrix (LC 54) — Simulation
-- [ ] Rotate Image (LC 48) — Matrix Transform
-- [ ] Word Search (LC 79) — Backtracking
-
-### String
-- [ ] Longest Substring Without Repeating (LC 3) — Sliding Window
-- [ ] Longest Repeating Character Replacement (LC 424) — Sliding Window
-- [ ] Minimum Window Substring (LC 76) — Sliding Window
-- [ ] Valid Anagram (LC 242) — Hash Map
-- [ ] Group Anagrams (LC 49) — Hash Map
-- [ ] Valid Parentheses (LC 20) — Stack
-- [ ] Longest Palindromic Substring (LC 5) — DP / Two Pointers
-- [ ] Palindromic Substrings (LC 647) — DP / Expand
-- [ ] Encode and Decode Strings (LC 271) — Design
-
-### Tree
-- [ ] Maximum Depth of Binary Tree (LC 104) — Tree DFS
-- [ ] Same Tree (LC 100) — Tree DFS
-- [ ] Invert Binary Tree (LC 226) — Tree DFS/BFS
-- [ ] Binary Tree Maximum Path Sum (LC 124) — Tree DFS
-- [ ] Binary Tree Level Order Traversal (LC 102) — Tree BFS
-- [ ] Serialize/Deserialize Binary Tree (LC 297) — Tree BFS/DFS
-- [ ] Subtree of Another Tree (LC 572) — Tree DFS
-- [ ] Construct from Preorder & Inorder (LC 105) — Divide & Conquer
-- [ ] Validate BST (LC 98) — Tree DFS
-- [ ] Kth Smallest in BST (LC 230) — Tree DFS
-- [ ] LCA of BST (LC 235) — Tree DFS
-
-### Heap
-- [ ] Merge K Sorted Lists (LC 23) — K-way Merge
-- [ ] Top K Frequent Elements (LC 347) — Top K
-- [ ] Find Median from Data Stream (LC 295) — Two Heaps
 
 ---
 
@@ -511,4 +420,3 @@ This project is for **educational purposes**. All LeetCode problems are property
 ---
 
 **Happy Coding!** 🚀
-Re
