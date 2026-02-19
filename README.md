@@ -44,6 +44,26 @@ This repository is a **one-stop DSA interview prep toolkit** for JavaScript deve
 | [complexity-cheatsheet.md](complexity-cheatsheet.md) | Time & Space complexity tables |
 | [problem-identification-guide.md](problem-identification-guide.md) | Keyword → pattern mapping |
 
+### 📁 [concepts/](concepts/) — Theory & fundamentals (study BEFORE patterns)
+
+| # | File | Topic |
+|---|------|-------|
+| 01 | [time_space_complexity.js](concepts/01_time_space_complexity.js) | Big-O, complexity analysis, cheat sheet |
+| 02 | [arrays.js](concepts/02_arrays.js) | 18 essential methods + DSA patterns |
+| 03 | [recursion.js](concepts/03_recursion.js) | Call stack, types, recursion vs iteration |
+| 04 | [searching_and_sorting.js](concepts/04_searching_and_sorting.js) | 7 sorting algorithms + comparison table |
+| 05 | [linked_list.js](concepts/05_linked_list.js) | Node ops, reversal, cycle detection |
+| 06 | [strings.js](concepts/06_strings.js) | Immutability, methods, ASCII, patterns |
+| 07 | [stack_and_queue.js](concepts/07_stack_and_queue.js) | LIFO/FIFO, Deque, classic problems |
+| 08 | [binary_search.js](concepts/08_binary_search.js) | 4 templates for any binary search |
+| 09 | [heap.js](concepts/09_heap.js) | Min/Max heap, priority queue, top-K |
+| 10 | [hashing.js](concepts/10_hashing.js) | Map/Set for O(1) lookups + 8 patterns |
+| 11 | [backtracking.js](concepts/11_backtracking.js) | Template, subsets, permutations, N-Queens |
+| 12 | [greedy.js](concepts/12_greedy.js) | Greedy choice property + classic problems |
+| 13 | [dynamic_programming.js](concepts/13_dynamic_programming.js) | Top-down, bottom-up, 1D/2D DP patterns |
+| 14 | [graphs.js](concepts/14_graphs.js) | BFS, DFS, Dijkstra, topological sort |
+| 15 | [tries.js](concepts/15_tries.js) | Prefix tree, autocomplete, word search |
+
 ### 📁 [patterns/](patterns/) — Click any pattern to open (use [Pattern Navigator](patterns/README.md) for prev/next links)
 
 | # | File | Description |
