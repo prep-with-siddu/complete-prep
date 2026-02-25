@@ -364,4 +364,44 @@ console.log('   "A man, a plan, a canal: Panama" →', isPalindrome("A man, a pl
  *  | Valid Palindrome                     | Easy       | 125  |
  *  | Squares of a Sorted Array            | Easy       | 977  |
  *  | Boats to Save People                 | Medium     | 881  |
+ *
+ *
+ *  🎯 PRACTICE PROBLEMS (15 — Two Pointers)
+ *  ──────────────────────────────────────────
+ *
+ *  EASY (5)
+ *  1. #167 Two Sum II – Input Array Is Sorted
+ *     https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+ *  2. #125 Valid Palindrome
+ *     https://leetcode.com/problems/valid-palindrome/
+ *  3. #88  Merge Sorted Array
+ *     https://leetcode.com/problems/merge-sorted-array/
+ *  4. #283 Move Zeroes
+ *     https://leetcode.com/problems/move-zeroes/
+ *  5. #977 Squares of a Sorted Array
+ *     https://leetcode.com/problems/squares-of-a-sorted-array/
+ *
+ *  MEDIUM (8)
+ *  6.  #15  3Sum
+ *      https://leetcode.com/problems/3sum/
+ *  7.  #11  Container With Most Water
+ *      https://leetcode.com/problems/container-with-most-water/
+ *  8.  #75  Sort Colors
+ *      https://leetcode.com/problems/sort-colors/
+ *  9.  #3   Longest Substring Without Repeating Characters
+ *      https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ *  10. #18  4Sum
+ *      https://leetcode.com/problems/4sum/
+ *  11. #61  Rotate List
+ *      https://leetcode.com/problems/rotate-list/
+ *  12. #80  Remove Duplicates from Sorted Array II
+ *      https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+ *  13. #763 Partition Labels
+ *      https://leetcode.com/problems/partition-labels/
+ *
+ *  HARD (2)
+ *  14. #42  Trapping Rain Water
+ *      https://leetcode.com/problems/trapping-rain-water/
+ *  15. #76  Minimum Window Substring
+ *      https://leetcode.com/problems/minimum-window-substring/
  */
