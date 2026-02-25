@@ -23,7 +23,23 @@ Target: Backend/Full-Stack Engineer @ Big Tech (4-5 YOE level)
 
 ---
 
-## 🔥 Phase 1: Advanced Python Mastery (Foundation)
+## � Phase 0: Python Starter Class (START HERE)
+
+> **If you want a solid Python foundation before diving into advanced topics, start with one of these:**
+
+| Course | Link | Duration | Notes |
+|--------|------|----------|-------|
+| **Corey Schafer — Python Tutorials for Beginners** | [Watch](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | ~25 hours | **BEST to start — covers everything from basics to OOP, clean teaching style** |
+| **Programming with Mosh — Python for Beginners** | [Watch](https://www.youtube.com/watch?v=_uQrJ0TkZlc) | 6 hours | Quick & modern, great for experienced devs switching to Python |
+| **freeCodeCamp — Python Full Course** | [Watch](https://www.youtube.com/watch?v=rfscVS0vtbw) | 4.5 hours | Free, beginner-friendly crash course |
+| **Bro Code — Python Full Course** | [Watch](https://www.youtube.com/watch?v=XKHEtdqhLK8) | 12 hours | Comprehensive, step-by-step, very beginner friendly |
+| **CS50's Introduction to Programming with Python (Harvard)** | [Watch](https://www.youtube.com/watch?v=OvKCESUCWII&list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V) | ~16 hours | University-level, builds strong fundamentals |
+
+> **Recommended path:** Start with **Corey Schafer** (most complete & clean), then move to Phase 1 below.
+
+---
+
+## �🔥 Phase 1: Advanced Python Mastery (Foundation)
 
 ### Concepts to Master
 | Topic | Priority | Why It Matters |
@@ -44,7 +60,7 @@ Target: Backend/Full-Stack Engineer @ Big Tech (4-5 YOE level)
 | Course | Link | Notes |
 |--------|------|-------|
 | **Corey Schafer — Python OOP** | [Watch](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc) | Best OOP tutorial on YouTube |
-| **Tech With Tim — Advanced Python** | [Watch](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtB-cP9) | Decorators, generators, etc. |
+| **Tech With Tim — Intermediate Python** | [Watch](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv) | Decorators, generators, etc. |
 | **ArjanCodes — Software Design in Python** | [Watch](https://www.youtube.com/@ArjanCodes) | Design patterns, clean code, SOLID |
 | **mCoding — Advanced Python** | [Watch](https://www.youtube.com/@mCoding) | Deep Python internals, GIL, memory |
 | **Corey Schafer — Unit Testing with pytest** | [Watch](https://www.youtube.com/watch?v=6tNS--WetLI) | Testing fundamentals |
@@ -130,8 +146,8 @@ Target: Backend/Full-Stack Engineer @ Big Tech (4-5 YOE level)
 |--------|------|-------|
 | **Gaurav Sen — System Design** | [Watch](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX) | Best SD series on YouTube |
 | **Alex Xu (ByteByteGo) — System Design** | [Watch](https://www.youtube.com/@ByteByteGo) | Visual system design |
-| **Hussein Nasser — Backend Engineering** | [Watch](https://www.youtube.com/@haborientado) | Deep backend concepts |
-| **Hussain Nasser — Database Engineering** | [Watch](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) | Database internals |
+| **Hussein Nasser — Backend Engineering** | [Watch](https://www.youtube.com/@hnasr) | Deep backend concepts |
+| **Hussein Nasser — Database Engineering** | [Watch](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) | Database internals |
 | **Tushar Roy — System Design** | [Watch](https://www.youtube.com/playlist?list=PLrmLmBdmIlps7GJJWW9I7N0P0rB0C3eY2) | Scalable systems |
 | **freeCodeCamp — Redis Full Course** | [Watch](https://www.youtube.com/watch?v=XCsS_NVAa1g) | Redis deep dive |
 | **freeCodeCamp — PostgreSQL Full Course** | [Watch](https://www.youtube.com/watch?v=qw--VYLpxG4) | PostgreSQL from scratch |
@@ -443,9 +459,9 @@ Sunday:
 |---------|-------|
 | [NeetCode](https://www.youtube.com/@NeetCode) | DSA + Interview Prep |
 | [ArjanCodes](https://www.youtube.com/@ArjanCodes) | Python Best Practices |
-| [Gaurav Sen](https://www.youtube.com/@gaborientado) | System Design |
+| [Gaurav Sen](https://www.youtube.com/@GauravSen) | System Design |
 | [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System Design Visual |
-| [Hussein Nasser](https://www.youtube.com/@haborientado) | Backend deep dives |
+| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend deep dives |
 | [Fireship](https://www.youtube.com/@Fireship) | Quick tech overviews |
 | [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana) | DevOps |
 | [Striver (takeUforward)](https://www.youtube.com/@takeUforward) | DSA Complete Course |
